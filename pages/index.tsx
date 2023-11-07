@@ -23,9 +23,9 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [agents, setAgents] = useState<any>([]);
   const [agentsCount, setAgentsCount] = useState(0);
-  const [previewImage, setPreviewImage] = useState("13.jpg");
+  const [previewImage, setPreviewImage] = useState("01.jpg");
   const [size, setSize] = useState("l");
-  const [model, setModel] = useState(4);
+  const [model, setModel] = useState(1);
   const router = useRouter();
 
   useEffect(() => {
