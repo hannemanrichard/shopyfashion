@@ -232,9 +232,9 @@ export default function Home() {
                   <button onClick={() => setPreviewImage("09.jpg")}>
                     <Image src="/09.jpg" width={128} height={160} />
                   </button>
-                   {/* <button onClick={() => setPreviewImage("13.jpg")}>
+                   <button onClick={() => setPreviewImage("13.jpg")}>
                     <Image src="/13.jpg" width={128} height={160} />
-                  </button> */}
+                  </button>
                 </div>
               </div>
               <div>
@@ -248,8 +248,8 @@ export default function Home() {
                 <img src="/08.jpg" className="my-3" />
                 <img src="/09.jpg" className="my-3" />
                 <img src="/11.jpg" className="my-3" />
-                 {/* <img src="/12.jpg" className="my-3" />  */}
-                 {/* <img src="/13.jpg" className="my-3" />  */}
+                 <img src="/12.jpg" className="my-3" /> 
+                 <img src="/13.jpg" className="my-3" /> 
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
@@ -292,9 +292,9 @@ export default function Home() {
                   <button onClick={() => handleUpdateModel(3)}>
                     <Image src="/09.jpg" width={128} height={160} />
                   </button>
-                  {/* <button onClick={() => handleUpdateModel(4)}>
+                  <button onClick={() => handleUpdateModel(4)}>
                     <Image src="/13.jpg" width={128} height={160} />
-                  </button>  */}
+                  </button> 
                 </div>
               </div>
             </div>
@@ -376,7 +376,7 @@ export default function Home() {
                             className="rounded-lg"
                           />
                         </div>
-                         {/* <div
+                         <div
                           onClick={() => handleUpdateModel(4)}
                           className={`flex cursor-pointer  p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 4
@@ -391,7 +391,7 @@ export default function Home() {
                             alt=""
                             className="rounded-lg"
                           />
-                        </div>  */}
+                        </div> 
                       </div>
                     </div>
                     <div>
@@ -629,7 +629,7 @@ export default function Home() {
                 <img src="/02.jpg" className="my-3" />
                 <img src="/05.jpg" className="my-3" />
                 <img src="/08.jpg" className="my-3" />
-                {/* <img src="/12.jpg" className="my-3" /> */}
+                <img src="/12.jpg" className="my-3" />
                 <img src="/06.jpg" className="my-3" />
                 <img src="/03.jpg" className="my-3" />
                 <img src="/11.jpg" className="my-3" />
@@ -637,7 +637,7 @@ export default function Home() {
                 <img src="/07.jpg" className="my-3" />
                 <img src="/09.jpg" className="my-3" />
                 <img src="/01.jpg" className="my-3" />
-                {/* <img src="/13.jpg" className="my-3" />  */}
+                <img src="/13.jpg" className="my-3" /> 
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
