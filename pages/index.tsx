@@ -238,6 +238,8 @@ export default function Home() {
                 </div>
               </div>
               <div>
+                <img src="/12.jpg" className="my-3" />
+                <img src="/13.jpg" className="my-3" />
                 <img src="/01.jpg" className="my-3" />
                 <img src="/02.jpg" className="my-3" />
                 <img src="/03.jpg" className="my-3" />
@@ -248,8 +250,6 @@ export default function Home() {
                 <img src="/08.jpg" className="my-3" />
                 <img src="/09.jpg" className="my-3" />
                 <img src="/11.jpg" className="my-3" />
-                <img src="/12.jpg" className="my-3" />
-                <img src="/13.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
@@ -626,10 +626,11 @@ export default function Home() {
                 allowFullScreen
               ></iframe> */}
               <div className="text-right mt-0">
+                <img src="/12.jpg" className="my-3" />
+              <img src="/13.jpg" className="my-3" />
                 <img src="/02.jpg" className="my-3" />
                 <img src="/05.jpg" className="my-3" />
                 <img src="/08.jpg" className="my-3" />
-                <img src="/12.jpg" className="my-3" />
                 <img src="/06.jpg" className="my-3" />
                 <img src="/03.jpg" className="my-3" />
                 <img src="/11.jpg" className="my-3" />
@@ -637,7 +638,6 @@ export default function Home() {
                 <img src="/07.jpg" className="my-3" />
                 <img src="/09.jpg" className="my-3" />
                 <img src="/01.jpg" className="my-3" />
-                <img src="/13.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
