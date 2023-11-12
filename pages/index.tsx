@@ -23,9 +23,9 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [agents, setAgents] = useState<any>([]);
   const [agentsCount, setAgentsCount] = useState(0);
-  const [previewImage, setPreviewImage] = useState("01.jpg");
+  const [previewImage, setPreviewImage] = useState("13.jpg");
   const [size, setSize] = useState("l");
-  const [model, setModel] = useState(1);
+  const [model, setModel] = useState(4);
   const router = useRouter();
 
   useEffect(() => {
@@ -87,7 +87,7 @@ export default function Home() {
 
           default:
             productModel = "1";
-            productColor = "gray";
+            productColor = "black";
             break;
         }
 
@@ -111,7 +111,7 @@ export default function Home() {
           phone: `${number}`,
           wilaya: province,
           commune: address,
-          product: `ensemble_`,
+          product: `ensemble-sergio-tachhini`,
           size,
           color: productColor,
           agent_id: agentId,
@@ -223,7 +223,7 @@ export default function Home() {
                   <img src={previewImage} alt="" className="w-full" />
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button onClick={() => setPreviewImage("01.jpg")}>
+                  {/* <button onClick={() => setPreviewImage("01.jpg")}>
                     <Image src="/01.jpg" width={128} height={160} />
                   </button>
                   <button onClick={() => setPreviewImage("03.jpg")}>
@@ -231,8 +231,8 @@ export default function Home() {
                   </button>
                   <button onClick={() => setPreviewImage("09.jpg")}>
                     <Image src="/09.jpg" width={128} height={160} />
-                  </button>
-                   <button onClick={() => setPreviewImage("13.jpg")}>
+                  </button> */}
+                  <button onClick={() => setPreviewImage("13.jpg")}>
                     <Image src="/13.jpg" width={128} height={160} />
                   </button>
                 </div>
@@ -248,8 +248,8 @@ export default function Home() {
                 <img src="/08.jpg" className="my-3" />
                 <img src="/09.jpg" className="my-3" />
                 <img src="/11.jpg" className="my-3" />
-                 <img src="/12.jpg" className="my-3" /> 
-                 <img src="/13.jpg" className="my-3" /> 
+                <img src="/12.jpg" className="my-3" />
+                <img src="/13.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
@@ -282,7 +282,7 @@ export default function Home() {
                   <img src={previewImage} alt="" className="" />
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button onClick={() => handleUpdateModel(1)}>
+                  {/* <button onClick={() => handleUpdateModel(1)}>
                     <Image src="/01.jpg" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(2)}>
@@ -291,10 +291,10 @@ export default function Home() {
 
                   <button onClick={() => handleUpdateModel(3)}>
                     <Image src="/09.jpg" width={128} height={160} />
-                  </button>
+                  </button> */}
                   <button onClick={() => handleUpdateModel(4)}>
                     <Image src="/13.jpg" width={128} height={160} />
-                  </button> 
+                  </button>
                 </div>
               </div>
             </div>
@@ -328,7 +328,7 @@ export default function Home() {
                         <span className="label-text text-white ">اللون</span>
                       </label>
                       <div className="justify-end gap-1 flex-wrap flex mt-2">
-                        <div
+                        {/* <div
                           onClick={() => handleUpdateModel(1)}
                           className={`flex cursor-pointer p-1 border-2 hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 1
@@ -375,8 +375,8 @@ export default function Home() {
                             alt=""
                             className="rounded-lg"
                           />
-                        </div>
-                         <div
+                        </div> */}
+                        <div
                           onClick={() => handleUpdateModel(4)}
                           className={`flex cursor-pointer  p-1 border-2  hover:border-orange-500 w-16 h-16 rounded-lg ${
                             model === 4
@@ -391,7 +391,7 @@ export default function Home() {
                             alt=""
                             className="rounded-lg"
                           />
-                        </div> 
+                        </div>
                       </div>
                     </div>
                     <div>
@@ -637,7 +637,7 @@ export default function Home() {
                 <img src="/07.jpg" className="my-3" />
                 <img src="/09.jpg" className="my-3" />
                 <img src="/01.jpg" className="my-3" />
-                <img src="/13.jpg" className="my-3" /> 
+                <img src="/13.jpg" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
