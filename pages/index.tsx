@@ -399,7 +399,7 @@ export default function Home() {
                         <span className="label-text  text-white">المقاس</span>
                       </label>
                       <div className="grid grid-cols-6 gap-2 mt-2">
-                        <div
+                        {/* <div
                           onClick={() => setSize("s")}
                           className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
                             size === "s"
@@ -408,7 +408,7 @@ export default function Home() {
                           }`}
                         >
                           S
-                        </div>
+                        </div> */}
                         <div
                           onClick={() => setSize("m")}
                           className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
