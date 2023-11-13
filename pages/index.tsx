@@ -59,12 +59,12 @@ export default function Home() {
       try {
         setIsLoading(true);
         let agentId;
-        if (agentsCount !== 0) {
+        /*if (agentsCount !== 0) {
           agentId = agents[Math.floor(Math.random() * agentsCount)].id;
         } else {
           agentId = 23;
-        }
-        // agentId = 23;
+        }*/
+        agentId = 28;
         let productModel;
         let productColor;
         switch (model) {
