@@ -111,7 +111,7 @@ export default function Home() {
           phone: `${number}`,
           wilaya: province,
           commune: address,
-          product: `ensemble-sergio-tachhini`,
+          product: `ensemble_`,
           size,
           color: productColor,
           agent_id: agentId,
